@@ -1,6 +1,6 @@
-var React = require('react');
-var ReactNative = require('react-native');
-var PropTypes = require('prop-types');
+import React from 'react';
+import ReactNative from 'react-native';
+import PropTypes from 'prop-types';
 var createReactClass = require('create-react-class');
 
 var {
@@ -11,7 +11,7 @@ var {
   ViewPropTypes,
 } = ReactNative;
 
-var MaterialSwitch = createReactClass({
+export const MaterialSwitch = createReactClass({
   padding: 8,
 
   propTypes: {
@@ -278,5 +278,3 @@ var MaterialSwitch = createReactClass({
     )
   }
 });
-
-module.exports = MaterialSwitch;
