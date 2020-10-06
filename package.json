@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-switch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Customizable material style switch",
   "main": "index.tsx",
   "scripts": {

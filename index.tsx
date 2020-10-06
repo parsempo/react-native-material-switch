@@ -9,7 +9,7 @@ import {
   ViewStyle,
 } from 'react-native';
 
-type Props = {
+export type MaterialSwitchProps = {
   active: boolean;
   style?: StyleProp<ViewStyle>;
   inactiveButtonColor?: string;
@@ -39,7 +39,7 @@ type State = {
   pressed?: boolean;
 };
 
-export default class MaterialSwitch extends PureComponent<Props, State> {
+export default class MaterialSwitch extends PureComponent<MaterialSwitchProps, State> {
   static defaultProps = {
     active: false,
     style: {},
